@@ -10,6 +10,7 @@ npm i SnippingTool
 import {startCapture} from "snippingtool"  
 
 #方法
+
 methods:{
   start() {
             startCapture($("body"));
@@ -17,5 +18,6 @@ methods:{
   }
 
 #调用
+
 @click="start"
 

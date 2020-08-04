@@ -1,0 +1,42 @@
+{
+  "_from": "snippingtool@^1.0.0",
+  "_id": "snippingtool@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-qyjAKRhPEM4ygzSuDpIMFGT2FJ7HKAA0oouPy5xMpGZKE0zPscDCP0ulpernzof6uKC40tPe1GxeTcE/t4COeQ==",
+  "_location": "/snippingtool",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "snippingtool@^1.0.0",
+    "name": "snippingtool",
+    "escapedName": "snippingtool",
+    "rawSpec": "^1.0.0",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.0"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/snippingtool/-/snippingtool-1.0.1.tgz",
+  "_shasum": "7fa1435dcd3baba387c07b2235754210508a6351",
+  "_spec": "snippingtool@^1.0.0",
+  "_where": "D:\\vue-dicomviewer",
+  "author": {
+    "name": "liyang"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "SnippingTool is a small screenshot tool,It relies on jQuery and html2canvas.",
+  "keywords": [
+    "screenshot"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "snippingtool",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.1"
+}

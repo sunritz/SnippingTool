@@ -1,23 +1,25 @@
-# SnippingTool
-一个小巧的截图工具
+# snippingtool 
+## It is a Vue screenshot annotation widget
+> It can intercept any position in the web page, and has a small blue brush to mark within the intercepted range. Finally, it is saved as a PNG file locally together with the marked content.
+## dependencies
+> It relies on jQuery and html2canvas, so make sure your project has both plug-ins installed before use.
+## install
 
-#安装
+    npm i snippingtool 
+***
+> jQuery and snippingtool should been introduced into the current component.
 
-npm i SnippingTool
+    import  {startCapture} from 'snippingtool'
+    import $ from 'jquery'
+> Write a method
 
-#引入
-
-import {startCapture} from "snippingtool"  
-
-#方法
-
-methods:{
-  start() {
-            startCapture($("body"));
+    methods:{
+        draw(){
+        startCapture($("body"));
         }
-  }
+    }
+> Add this method to the event of any button in the component template.
 
-#调用
-
-@click="start"
-
+    <button @click="draw"></button>
+***
+>author[sunritz](mailto:sunritz@126.com)Welcome to communicate. 
